@@ -56,3 +56,493 @@ Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 86
 #1 /Applications/MAMP/htdocs/_profero_dev_test_broken/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
 #2 /Applications/MAMP/htdocs/_profero_dev_test_broken/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #3 {main}
+2012-09-11 20:23:04 Error: [MissingControllerException] Controller class PagesController could not be found.
+#0 /home/kieran/web/php/PHP-test-new/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-11 20:23:04 Error: Fatal Error (1): Class 'AppController' not found in [/home/kieran/web/php/PHP-test-new/lib/Cake/Controller/CakeErrorController.php, line 29]
+2012-09-11 20:23:04 Error: [InternalErrorException] Internal Server Error
+#0 /home/kieran/web/php/PHP-test-new/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'AppContr...', '/home/kieran/we...', 29)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AppContr...', '/home/kieran/we...', 29, Array)
+#2 /home/kieran/web/php/PHP-test-new/lib/Cake/Core/App.php(924): call_user_func('ErrorHandler::h...', 1, 'Class 'AppContr...', '/home/kieran/we...', 29, Array)
+#3 /home/kieran/web/php/PHP-test-new/lib/Cake/Core/App.php(897): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-09-11 20:23:17 Error: [MissingControllerException] Controller class PagesController could not be found.
+#0 /home/kieran/web/php/PHP-test-new/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-11 20:23:17 Error: Fatal Error (1): Class 'AppController' not found in [/home/kieran/web/php/PHP-test-new/lib/Cake/Controller/CakeErrorController.php, line 29]
+2012-09-11 20:23:17 Error: [InternalErrorException] Internal Server Error
+#0 /home/kieran/web/php/PHP-test-new/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'AppContr...', '/home/kieran/we...', 29)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AppContr...', '/home/kieran/we...', 29, Array)
+#2 /home/kieran/web/php/PHP-test-new/lib/Cake/Core/App.php(924): call_user_func('ErrorHandler::h...', 1, 'Class 'AppContr...', '/home/kieran/we...', 29, Array)
+#3 /home/kieran/web/php/PHP-test-new/lib/Cake/Core/App.php(897): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-09-11 20:23:18 Error: [MissingControllerException] Controller class PagesController could not be found.
+#0 /home/kieran/web/php/PHP-test-new/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-11 20:23:18 Error: Fatal Error (1): Class 'AppController' not found in [/home/kieran/web/php/PHP-test-new/lib/Cake/Controller/CakeErrorController.php, line 29]
+2012-09-11 20:23:18 Error: [InternalErrorException] Internal Server Error
+#0 /home/kieran/web/php/PHP-test-new/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'AppContr...', '/home/kieran/we...', 29)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AppContr...', '/home/kieran/we...', 29, Array)
+#2 /home/kieran/web/php/PHP-test-new/lib/Cake/Core/App.php(924): call_user_func('ErrorHandler::h...', 1, 'Class 'AppContr...', '/home/kieran/we...', 29, Array)
+#3 /home/kieran/web/php/PHP-test-new/lib/Cake/Core/App.php(897): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-09-11 20:23:18 Error: [MissingControllerException] Controller class PagesController could not be found.
+#0 /home/kieran/web/php/PHP-test-new/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-11 20:23:18 Error: Fatal Error (1): Class 'AppController' not found in [/home/kieran/web/php/PHP-test-new/lib/Cake/Controller/CakeErrorController.php, line 29]
+2012-09-11 20:23:18 Error: [InternalErrorException] Internal Server Error
+#0 /home/kieran/web/php/PHP-test-new/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'AppContr...', '/home/kieran/we...', 29)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AppContr...', '/home/kieran/we...', 29, Array)
+#2 /home/kieran/web/php/PHP-test-new/lib/Cake/Core/App.php(924): call_user_func('ErrorHandler::h...', 1, 'Class 'AppContr...', '/home/kieran/we...', 29, Array)
+#3 /home/kieran/web/php/PHP-test-new/lib/Cake/Core/App.php(897): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-09-11 20:23:52 Error: [MissingControllerException] Controller class PagesController could not be found.
+#0 /home/kieran/web/php/PHP-test-new/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-11 20:23:52 Error: Fatal Error (1): Class 'AppHelper' not found in [/home/kieran/web/php/PHP-test-new/lib/Cake/View/Helper/HtmlHelper.php, line 31]
+2012-09-11 20:23:52 Error: [InternalErrorException] Internal Server Error
+#0 /home/kieran/web/php/PHP-test-new/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'AppHelpe...', '/home/kieran/we...', 31)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AppHelpe...', '/home/kieran/we...', 31, Array)
+#2 /home/kieran/web/php/PHP-test-new/lib/Cake/Core/App.php(924): call_user_func('ErrorHandler::h...', 1, 'Class 'AppHelpe...', '/home/kieran/we...', 31, Array)
+#3 /home/kieran/web/php/PHP-test-new/lib/Cake/Core/App.php(897): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-09-11 20:25:34 Error: [MissingControllerException] Controller class PagesController could not be found.
+#0 /home/kieran/web/php/PHP-test-new/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-11 20:26:33 Error: [MissingControllerException] Controller class HomeController could not be found.
+#0 /home/kieran/web/php/PHP-test-new/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-11 20:26:41 Error: [MissingComponentException] Component class FacebookComponent could not be found.
+#0 /home/kieran/web/php/PHP-test-new/lib/Cake/Controller/ComponentCollection.php(52): ComponentCollection->load('Facebook', Array)
+#1 /home/kieran/web/php/PHP-test-new/lib/Cake/Controller/Controller.php(635): ComponentCollection->init(Object(HomeController))
+#2 /home/kieran/web/php/PHP-test-new/lib/Cake/Routing/Dispatcher.php(183): Controller->constructClasses()
+#3 /home/kieran/web/php/PHP-test-new/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/kieran/web/php/PHP-test-new/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-09-11 20:27:12 Error: Fatal Error (1): Class 'AppModel' not found in [/home/kieran/web/php/PHP-test-new/lib/Cake/Utility/ClassRegistry.php, line 174]
+2012-09-11 20:27:12 Error: [InternalErrorException] Internal Server Error
+#0 /home/kieran/web/php/PHP-test-new/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'AppModel...', '/home/kieran/we...', 174)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AppModel...', '/home/kieran/we...', 174, Array)
+#2 /home/kieran/web/php/PHP-test-new/lib/Cake/Core/App.php(924): call_user_func('ErrorHandler::h...', 1, 'Class 'AppModel...', '/home/kieran/we...', 174, Array)
+#3 /home/kieran/web/php/PHP-test-new/lib/Cake/Core/App.php(897): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-09-11 20:28:36 Error: [MissingConnectionException] Database connection "SQLSTATE[28000] [1045] Access denied for user 'www-data'@'localhost' (using password: NO)" is missing, or could not be created.
+#0 /home/kieran/web/php/PHP-test-new/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /home/kieran/web/php/PHP-test-new/lib/Cake/Model/ConnectionManager.php(101): DboSource->__construct(Array)
+#2 /home/kieran/web/php/PHP-test-new/lib/Cake/Model/Model.php(3398): ConnectionManager::getDataSource('default')
+#3 /home/kieran/web/php/PHP-test-new/lib/Cake/Model/Model.php(1083): Model->setDataSource('default')
+#4 /home/kieran/web/php/PHP-test-new/lib/Cake/Model/Model.php(3424): Model->setSource('homes')
+#5 /home/kieran/web/php/PHP-test-new/lib/Cake/Model/Model.php(1623): Model->getDataSource()
+#6 /home/kieran/web/php/PHP-test-new/app/Controller/HomeController.php(51): Model->save()
+#7 [internal function]: HomeController->saveData()
+#8 /home/kieran/web/php/PHP-test-new/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(HomeController), Array)
+#9 /home/kieran/web/php/PHP-test-new/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#10 /home/kieran/web/php/PHP-test-new/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#11 /home/kieran/web/php/PHP-test-new/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-09-11 20:30:52 Error: [MissingTableException] Table homes for model Home was not found in datasource default.
+#0 /home/kieran/web/php/PHP-test-new/lib/Cake/Model/Model.php(3424): Model->setSource('homes')
+#1 /home/kieran/web/php/PHP-test-new/lib/Cake/Model/Model.php(1623): Model->getDataSource()
+#2 /home/kieran/web/php/PHP-test-new/app/Controller/HomeController.php(51): Model->save()
+#3 [internal function]: HomeController->saveData()
+#4 /home/kieran/web/php/PHP-test-new/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(HomeController), Array)
+#5 /home/kieran/web/php/PHP-test-new/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#6 /home/kieran/web/php/PHP-test-new/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#7 /home/kieran/web/php/PHP-test-new/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-09-11 20:31:39 Error: [MissingTableException] Table homes for model Home was not found in datasource default.
+#0 /home/kieran/web/php/PHP-test-new/lib/Cake/Model/Model.php(3424): Model->setSource('homes')
+#1 /home/kieran/web/php/PHP-test-new/lib/Cake/Model/Model.php(1623): Model->getDataSource()
+#2 /home/kieran/web/php/PHP-test-new/app/Controller/HomeController.php(51): Model->save()
+#3 [internal function]: HomeController->saveData()
+#4 /home/kieran/web/php/PHP-test-new/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(HomeController), Array)
+#5 /home/kieran/web/php/PHP-test-new/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#6 /home/kieran/web/php/PHP-test-new/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#7 /home/kieran/web/php/PHP-test-new/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-09-11 20:41:16 Error: [MissingTableException] Table homes for model Home was not found in datasource default.
+#0 /home/kieran/web/php/PHP-test-new/lib/Cake/Model/Model.php(3424): Model->setSource('homes')
+#1 /home/kieran/web/php/PHP-test-new/lib/Cake/Model/Model.php(1623): Model->getDataSource()
+#2 /home/kieran/web/php/PHP-test-new/app/Controller/HomeController.php(51): Model->save()
+#3 [internal function]: HomeController->saveData()
+#4 /home/kieran/web/php/PHP-test-new/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(HomeController), Array)
+#5 /home/kieran/web/php/PHP-test-new/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#6 /home/kieran/web/php/PHP-test-new/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#7 /home/kieran/web/php/PHP-test-new/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-09-11 20:41:44 Error: [MissingTableException] Table homes for model Home was not found in datasource default.
+#0 /home/kieran/web/php/PHP-test-new/lib/Cake/Model/Model.php(3424): Model->setSource('homes')
+#1 /home/kieran/web/php/PHP-test-new/lib/Cake/Model/Model.php(1623): Model->getDataSource()
+#2 /home/kieran/web/php/PHP-test-new/app/Controller/HomeController.php(51): Model->save()
+#3 [internal function]: HomeController->saveData()
+#4 /home/kieran/web/php/PHP-test-new/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(HomeController), Array)
+#5 /home/kieran/web/php/PHP-test-new/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#6 /home/kieran/web/php/PHP-test-new/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#7 /home/kieran/web/php/PHP-test-new/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-09-11 20:45:45 Error: [MissingTableException] Table homes for model Home was not found in datasource default.
+#0 /home/kieran/web/php/PHP-test-new/lib/Cake/Model/Model.php(3424): Model->setSource('homes')
+#1 /home/kieran/web/php/PHP-test-new/lib/Cake/Model/Model.php(1623): Model->getDataSource()
+#2 /home/kieran/web/php/PHP-test-new/app/Controller/HomeController.php(51): Model->save()
+#3 [internal function]: HomeController->saveData()
+#4 /home/kieran/web/php/PHP-test-new/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(HomeController), Array)
+#5 /home/kieran/web/php/PHP-test-new/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#6 /home/kieran/web/php/PHP-test-new/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#7 /home/kieran/web/php/PHP-test-new/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-09-11 20:46:05 Error: [MissingTableException] Table homes for model Home was not found in datasource default.
+#0 /home/kieran/web/php/PHP-test-new/lib/Cake/Model/Model.php(3424): Model->setSource('homes')
+#1 /home/kieran/web/php/PHP-test-new/lib/Cake/Model/Model.php(1623): Model->getDataSource()
+#2 /home/kieran/web/php/PHP-test-new/app/Controller/HomeController.php(51): Model->save()
+#3 [internal function]: HomeController->saveData()
+#4 /home/kieran/web/php/PHP-test-new/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(HomeController), Array)
+#5 /home/kieran/web/php/PHP-test-new/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#6 /home/kieran/web/php/PHP-test-new/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#7 /home/kieran/web/php/PHP-test-new/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-09-11 20:47:15 Error: [MissingTableException] Table homes for model Home was not found in datasource default.
+#0 /home/kieran/web/php/PHP-test-new/lib/Cake/Model/Model.php(3424): Model->setSource('homes')
+#1 /home/kieran/web/php/PHP-test-new/lib/Cake/Model/Model.php(1623): Model->getDataSource()
+#2 /home/kieran/web/php/PHP-test-new/app/Controller/HomeController.php(51): Model->save()
+#3 [internal function]: HomeController->saveData()
+#4 /home/kieran/web/php/PHP-test-new/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(HomeController), Array)
+#5 /home/kieran/web/php/PHP-test-new/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#6 /home/kieran/web/php/PHP-test-new/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#7 /home/kieran/web/php/PHP-test-new/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-09-11 20:49:21 Error: [MissingConnectionException] Database connection "SQLSTATE[42000] [1049] Unknown database 'proferostest'" is missing, or could not be created.
+#0 /home/kieran/web/php/PHP-test-new/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /home/kieran/web/php/PHP-test-new/lib/Cake/Model/ConnectionManager.php(101): DboSource->__construct(Array)
+#2 /home/kieran/web/php/PHP-test-new/lib/Cake/Model/Model.php(3398): ConnectionManager::getDataSource('default')
+#3 /home/kieran/web/php/PHP-test-new/lib/Cake/Model/Model.php(1083): Model->setDataSource('default')
+#4 /home/kieran/web/php/PHP-test-new/lib/Cake/Model/Model.php(3424): Model->setSource('homes')
+#5 /home/kieran/web/php/PHP-test-new/lib/Cake/Model/Model.php(1623): Model->getDataSource()
+#6 /home/kieran/web/php/PHP-test-new/app/Controller/HomeController.php(51): Model->save()
+#7 [internal function]: HomeController->saveData()
+#8 /home/kieran/web/php/PHP-test-new/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(HomeController), Array)
+#9 /home/kieran/web/php/PHP-test-new/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#10 /home/kieran/web/php/PHP-test-new/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#11 /home/kieran/web/php/PHP-test-new/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-09-11 20:49:32 Error: [MissingTableException] Table homes for model Home was not found in datasource default.
+#0 /home/kieran/web/php/PHP-test-new/lib/Cake/Model/Model.php(3424): Model->setSource('homes')
+#1 /home/kieran/web/php/PHP-test-new/lib/Cake/Model/Model.php(1623): Model->getDataSource()
+#2 /home/kieran/web/php/PHP-test-new/app/Controller/HomeController.php(51): Model->save()
+#3 [internal function]: HomeController->saveData()
+#4 /home/kieran/web/php/PHP-test-new/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(HomeController), Array)
+#5 /home/kieran/web/php/PHP-test-new/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#6 /home/kieran/web/php/PHP-test-new/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#7 /home/kieran/web/php/PHP-test-new/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-09-11 20:49:53 Error: [MissingTableException] Table homes for model Home was not found in datasource default.
+#0 /home/kieran/web/php/PHP-test-new/lib/Cake/Model/Model.php(3424): Model->setSource('homes')
+#1 /home/kieran/web/php/PHP-test-new/lib/Cake/Model/Model.php(1623): Model->getDataSource()
+#2 /home/kieran/web/php/PHP-test-new/app/Controller/HomeController.php(51): Model->save()
+#3 [internal function]: HomeController->saveData()
+#4 /home/kieran/web/php/PHP-test-new/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(HomeController), Array)
+#5 /home/kieran/web/php/PHP-test-new/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#6 /home/kieran/web/php/PHP-test-new/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#7 /home/kieran/web/php/PHP-test-new/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-09-11 20:52:42 Error: [MissingTableException] Table homes for model Home was not found in datasource default.
+#0 /home/kieran/web/php/PHP-test-new/lib/Cake/Model/Model.php(3424): Model->setSource('homes')
+#1 /home/kieran/web/php/PHP-test-new/lib/Cake/Model/Model.php(1623): Model->getDataSource()
+#2 /home/kieran/web/php/PHP-test-new/app/Controller/HomeController.php(51): Model->save()
+#3 [internal function]: HomeController->saveData()
+#4 /home/kieran/web/php/PHP-test-new/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(HomeController), Array)
+#5 /home/kieran/web/php/PHP-test-new/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#6 /home/kieran/web/php/PHP-test-new/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#7 /home/kieran/web/php/PHP-test-new/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-09-11 20:53:23 Error: [MissingTableException] Table homes for model Home was not found in datasource default.
+#0 /home/kieran/web/php/PHP-test-new/lib/Cake/Model/Model.php(3424): Model->setSource('homes')
+#1 /home/kieran/web/php/PHP-test-new/lib/Cake/Model/Model.php(1623): Model->getDataSource()
+#2 /home/kieran/web/php/PHP-test-new/app/Controller/HomeController.php(51): Model->save()
+#3 [internal function]: HomeController->saveData()
+#4 /home/kieran/web/php/PHP-test-new/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(HomeController), Array)
+#5 /home/kieran/web/php/PHP-test-new/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#6 /home/kieran/web/php/PHP-test-new/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#7 /home/kieran/web/php/PHP-test-new/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-09-11 20:54:54 Error: [MissingTableException] Table homes for model Home was not found in datasource default.
+#0 /home/kieran/web/php/PHP-test-new/lib/Cake/Model/Model.php(3424): Model->setSource('homes')
+#1 /home/kieran/web/php/PHP-test-new/lib/Cake/Model/Model.php(1623): Model->getDataSource()
+#2 /home/kieran/web/php/PHP-test-new/app/Controller/HomeController.php(51): Model->save()
+#3 [internal function]: HomeController->saveData()
+#4 /home/kieran/web/php/PHP-test-new/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(HomeController), Array)
+#5 /home/kieran/web/php/PHP-test-new/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#6 /home/kieran/web/php/PHP-test-new/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#7 /home/kieran/web/php/PHP-test-new/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-09-11 20:55:55 Error: Fatal Error (1): Call to a member function Save() on a non-object in [/home/kieran/web/php/PHP-test-new/app/Controller/HomeController.php, line 51]
+2012-09-11 20:55:55 Error: [InternalErrorException] Internal Server Error
+#0 /home/kieran/web/php/PHP-test-new/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/kieran/we...', 51)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/kieran/we...', 51, Array)
+#2 /home/kieran/web/php/PHP-test-new/lib/Cake/Core/App.php(924): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/kieran/we...', 51, Array)
+#3 /home/kieran/web/php/PHP-test-new/lib/Cake/Core/App.php(897): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-09-11 20:56:13 Error: [MissingTableException] Table homes for model Home was not found in datasource default.
+#0 /home/kieran/web/php/PHP-test-new/lib/Cake/Model/Model.php(3424): Model->setSource('homes')
+#1 /home/kieran/web/php/PHP-test-new/lib/Cake/Model/Model.php(1623): Model->getDataSource()
+#2 /home/kieran/web/php/PHP-test-new/app/Controller/HomeController.php(51): Model->save()
+#3 [internal function]: HomeController->saveData()
+#4 /home/kieran/web/php/PHP-test-new/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(HomeController), Array)
+#5 /home/kieran/web/php/PHP-test-new/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#6 /home/kieran/web/php/PHP-test-new/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#7 /home/kieran/web/php/PHP-test-new/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-09-11 20:56:37 Error: [MissingTableException] Table homes for model Home was not found in datasource default.
+#0 /home/kieran/web/php/PHP-test-new/lib/Cake/Model/Model.php(3424): Model->setSource('homes')
+#1 /home/kieran/web/php/PHP-test-new/lib/Cake/Model/Model.php(1623): Model->getDataSource()
+#2 /home/kieran/web/php/PHP-test-new/app/Controller/HomeController.php(51): Model->save()
+#3 [internal function]: HomeController->saveData()
+#4 /home/kieran/web/php/PHP-test-new/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(HomeController), Array)
+#5 /home/kieran/web/php/PHP-test-new/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#6 /home/kieran/web/php/PHP-test-new/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#7 /home/kieran/web/php/PHP-test-new/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-09-11 20:57:22 Error: [MissingTableException] Table homes for model Home was not found in datasource default.
+#0 /home/kieran/web/php/PHP-test-new/lib/Cake/Model/Model.php(3424): Model->setSource('homes')
+#1 /home/kieran/web/php/PHP-test-new/lib/Cake/Model/Model.php(1623): Model->getDataSource()
+#2 /home/kieran/web/php/PHP-test-new/app/Controller/HomeController.php(51): Model->save()
+#3 [internal function]: HomeController->saveData()
+#4 /home/kieran/web/php/PHP-test-new/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(HomeController), Array)
+#5 /home/kieran/web/php/PHP-test-new/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#6 /home/kieran/web/php/PHP-test-new/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#7 /home/kieran/web/php/PHP-test-new/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-09-11 20:58:34 Error: [MissingTableException] Table homes for model Home was not found in datasource default.
+#0 /home/kieran/web/php/PHP-test-new/lib/Cake/Model/Model.php(3424): Model->setSource('homes')
+#1 /home/kieran/web/php/PHP-test-new/lib/Cake/Model/Model.php(1623): Model->getDataSource()
+#2 /home/kieran/web/php/PHP-test-new/app/Controller/HomeController.php(51): Model->save()
+#3 [internal function]: HomeController->saveData()
+#4 /home/kieran/web/php/PHP-test-new/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(HomeController), Array)
+#5 /home/kieran/web/php/PHP-test-new/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#6 /home/kieran/web/php/PHP-test-new/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#7 /home/kieran/web/php/PHP-test-new/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-09-11 20:58:55 Error: [MissingTableException] Table homes for model Home was not found in datasource default.
+#0 /home/kieran/web/php/PHP-test-new/lib/Cake/Model/Model.php(3424): Model->setSource('homes')
+#1 /home/kieran/web/php/PHP-test-new/lib/Cake/Model/Model.php(1623): Model->getDataSource()
+#2 /home/kieran/web/php/PHP-test-new/app/Controller/HomeController.php(51): Model->save()
+#3 [internal function]: HomeController->saveData()
+#4 /home/kieran/web/php/PHP-test-new/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(HomeController), Array)
+#5 /home/kieran/web/php/PHP-test-new/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#6 /home/kieran/web/php/PHP-test-new/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#7 /home/kieran/web/php/PHP-test-new/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-09-11 21:01:09 Error: [PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'proferotest.home' doesn't exist
+#0 /home/kieran/web/php/PHP-test-new/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /home/kieran/web/php/PHP-test-new/lib/Cake/Model/Datasource/Database/Mysql.php(288): DboSource->_execute('SHOW FULL COLUM...')
+#2 /home/kieran/web/php/PHP-test-new/lib/Cake/Model/Model.php(1279): Mysql->describe(Object(Home))
+#3 /home/kieran/web/php/PHP-test-new/lib/Cake/Model/Model.php(1364): Model->schema()
+#4 /home/kieran/web/php/PHP-test-new/lib/Cake/Model/Model.php(1626): Model->hasField('modified')
+#5 /home/kieran/web/php/PHP-test-new/app/Controller/HomeController.php(51): Model->save()
+#6 [internal function]: HomeController->saveData()
+#7 /home/kieran/web/php/PHP-test-new/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(HomeController), Array)
+#8 /home/kieran/web/php/PHP-test-new/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#9 /home/kieran/web/php/PHP-test-new/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#10 /home/kieran/web/php/PHP-test-new/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-09-11 21:01:27 Error: [MissingTableException] Table entries for model Home was not found in datasource default.
+#0 /home/kieran/web/php/PHP-test-new/lib/Cake/Model/Model.php(3424): Model->setSource('entries')
+#1 /home/kieran/web/php/PHP-test-new/lib/Cake/Model/Model.php(1623): Model->getDataSource()
+#2 /home/kieran/web/php/PHP-test-new/app/Controller/HomeController.php(51): Model->save()
+#3 [internal function]: HomeController->saveData()
+#4 /home/kieran/web/php/PHP-test-new/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(HomeController), Array)
+#5 /home/kieran/web/php/PHP-test-new/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#6 /home/kieran/web/php/PHP-test-new/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#7 /home/kieran/web/php/PHP-test-new/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-09-11 21:01:54 Error: [MissingTableException] Table homes for model Home was not found in datasource default.
+#0 /home/kieran/web/php/PHP-test-new/lib/Cake/Model/Model.php(3424): Model->setSource('homes')
+#1 /home/kieran/web/php/PHP-test-new/lib/Cake/Model/Model.php(1623): Model->getDataSource()
+#2 /home/kieran/web/php/PHP-test-new/app/Controller/HomeController.php(51): Model->save()
+#3 [internal function]: HomeController->saveData()
+#4 /home/kieran/web/php/PHP-test-new/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(HomeController), Array)
+#5 /home/kieran/web/php/PHP-test-new/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#6 /home/kieran/web/php/PHP-test-new/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#7 /home/kieran/web/php/PHP-test-new/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-09-11 21:02:12 Error: [MissingTableException] Table homes for model Home was not found in datasource default.
+#0 /home/kieran/web/php/PHP-test-new/lib/Cake/Model/Model.php(3424): Model->setSource('homes')
+#1 /home/kieran/web/php/PHP-test-new/lib/Cake/Model/Model.php(1623): Model->getDataSource()
+#2 /home/kieran/web/php/PHP-test-new/app/Controller/HomeController.php(51): Model->save()
+#3 [internal function]: HomeController->saveData()
+#4 /home/kieran/web/php/PHP-test-new/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(HomeController), Array)
+#5 /home/kieran/web/php/PHP-test-new/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#6 /home/kieran/web/php/PHP-test-new/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#7 /home/kieran/web/php/PHP-test-new/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-09-11 21:03:36 Error: [MissingDatasourceException] Datasource class Myssql could not be found.
+#0 /home/kieran/web/php/PHP-test-new/lib/Cake/Model/ConnectionManager.php(97): ConnectionManager::loadDataSource('default')
+#1 /home/kieran/web/php/PHP-test-new/lib/Cake/Model/Model.php(3398): ConnectionManager::getDataSource('default')
+#2 /home/kieran/web/php/PHP-test-new/lib/Cake/Model/Model.php(1083): Model->setDataSource('default')
+#3 /home/kieran/web/php/PHP-test-new/lib/Cake/Model/Model.php(3424): Model->setSource('homes')
+#4 /home/kieran/web/php/PHP-test-new/lib/Cake/Model/Model.php(1623): Model->getDataSource()
+#5 /home/kieran/web/php/PHP-test-new/app/Controller/HomeController.php(51): Model->save()
+#6 [internal function]: HomeController->saveData()
+#7 /home/kieran/web/php/PHP-test-new/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(HomeController), Array)
+#8 /home/kieran/web/php/PHP-test-new/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#9 /home/kieran/web/php/PHP-test-new/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#10 /home/kieran/web/php/PHP-test-new/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-09-11 21:03:44 Error: [MissingTableException] Table homes for model Home was not found in datasource default.
+#0 /home/kieran/web/php/PHP-test-new/lib/Cake/Model/Model.php(3424): Model->setSource('homes')
+#1 /home/kieran/web/php/PHP-test-new/lib/Cake/Model/Model.php(1623): Model->getDataSource()
+#2 /home/kieran/web/php/PHP-test-new/app/Controller/HomeController.php(51): Model->save()
+#3 [internal function]: HomeController->saveData()
+#4 /home/kieran/web/php/PHP-test-new/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(HomeController), Array)
+#5 /home/kieran/web/php/PHP-test-new/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#6 /home/kieran/web/php/PHP-test-new/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#7 /home/kieran/web/php/PHP-test-new/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-09-11 21:04:52 Error: [MissingTableException] Table homes for model Home was not found in datasource default.
+#0 /home/kieran/web/php/PHP-test-new/lib/Cake/Model/Model.php(3424): Model->setSource('homes')
+#1 /home/kieran/web/php/PHP-test-new/lib/Cake/Model/Model.php(1623): Model->getDataSource()
+#2 /home/kieran/web/php/PHP-test-new/app/Controller/HomeController.php(51): Model->save()
+#3 [internal function]: HomeController->saveData()
+#4 /home/kieran/web/php/PHP-test-new/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(HomeController), Array)
+#5 /home/kieran/web/php/PHP-test-new/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#6 /home/kieran/web/php/PHP-test-new/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#7 /home/kieran/web/php/PHP-test-new/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-09-11 21:05:24 Error: [MissingTableException] Table entries for model Home was not found in datasource default.
+#0 /home/kieran/web/php/PHP-test-new/lib/Cake/Model/Model.php(3424): Model->setSource('entries')
+#1 /home/kieran/web/php/PHP-test-new/lib/Cake/Model/Model.php(1623): Model->getDataSource()
+#2 /home/kieran/web/php/PHP-test-new/app/Controller/HomeController.php(51): Model->save()
+#3 [internal function]: HomeController->saveData()
+#4 /home/kieran/web/php/PHP-test-new/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(HomeController), Array)
+#5 /home/kieran/web/php/PHP-test-new/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#6 /home/kieran/web/php/PHP-test-new/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#7 /home/kieran/web/php/PHP-test-new/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-09-11 21:12:48 Error: [MissingTableException] Table entries for model Home was not found in datasource default.
+#0 /home/kieran/web/php/PHP-test-new/lib/Cake/Model/Model.php(3424): Model->setSource('entries')
+#1 /home/kieran/web/php/PHP-test-new/lib/Cake/Model/Model.php(1623): Model->getDataSource()
+#2 /home/kieran/web/php/PHP-test-new/app/Controller/HomeController.php(51): Model->save()
+#3 [internal function]: HomeController->saveData()
+#4 /home/kieran/web/php/PHP-test-new/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(HomeController), Array)
+#5 /home/kieran/web/php/PHP-test-new/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#6 /home/kieran/web/php/PHP-test-new/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#7 /home/kieran/web/php/PHP-test-new/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-09-11 21:13:03 Error: [MissingTableException] Table entries for model Home was not found in datasource default.
+#0 /home/kieran/web/php/PHP-test-new/lib/Cake/Model/Model.php(3424): Model->setSource('entries')
+#1 /home/kieran/web/php/PHP-test-new/lib/Cake/Model/Model.php(1623): Model->getDataSource()
+#2 /home/kieran/web/php/PHP-test-new/app/Controller/HomeController.php(51): Model->save()
+#3 [internal function]: HomeController->saveData()
+#4 /home/kieran/web/php/PHP-test-new/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(HomeController), Array)
+#5 /home/kieran/web/php/PHP-test-new/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#6 /home/kieran/web/php/PHP-test-new/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#7 /home/kieran/web/php/PHP-test-new/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-09-11 21:14:41 Error: [MissingTableException] Table entries for model Home was not found in datasource default.
+#0 /home/kieran/web/php/PHP-test-new/lib/Cake/Model/Model.php(3424): Model->setSource('entries')
+#1 /home/kieran/web/php/PHP-test-new/lib/Cake/Model/Model.php(1623): Model->getDataSource()
+#2 /home/kieran/web/php/PHP-test-new/app/Controller/HomeController.php(51): Model->save()
+#3 [internal function]: HomeController->saveData()
+#4 /home/kieran/web/php/PHP-test-new/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(HomeController), Array)
+#5 /home/kieran/web/php/PHP-test-new/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#6 /home/kieran/web/php/PHP-test-new/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#7 /home/kieran/web/php/PHP-test-new/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-09-11 21:15:03 Error: [MissingTableException] Table entries for model Home was not found in datasource default.
+#0 /home/kieran/web/php/PHP-test-new/lib/Cake/Model/Model.php(3424): Model->setSource('entries')
+#1 /home/kieran/web/php/PHP-test-new/lib/Cake/Model/Model.php(1623): Model->getDataSource()
+#2 /home/kieran/web/php/PHP-test-new/app/Controller/HomeController.php(51): Model->save()
+#3 [internal function]: HomeController->saveData()
+#4 /home/kieran/web/php/PHP-test-new/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(HomeController), Array)
+#5 /home/kieran/web/php/PHP-test-new/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#6 /home/kieran/web/php/PHP-test-new/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#7 /home/kieran/web/php/PHP-test-new/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-09-11 21:15:14 Error: [MissingTableException] Table homes for model Home was not found in datasource default.
+#0 /home/kieran/web/php/PHP-test-new/lib/Cake/Model/Model.php(3424): Model->setSource('homes')
+#1 /home/kieran/web/php/PHP-test-new/lib/Cake/Model/Model.php(1623): Model->getDataSource()
+#2 /home/kieran/web/php/PHP-test-new/app/Controller/HomeController.php(51): Model->save()
+#3 [internal function]: HomeController->saveData()
+#4 /home/kieran/web/php/PHP-test-new/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(HomeController), Array)
+#5 /home/kieran/web/php/PHP-test-new/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#6 /home/kieran/web/php/PHP-test-new/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#7 /home/kieran/web/php/PHP-test-new/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-09-11 21:15:55 Error: [MissingTableException] Table homes for model Home was not found in datasource default.
+#0 /home/kieran/web/php/PHP-test-new/lib/Cake/Model/Model.php(3424): Model->setSource('homes')
+#1 /home/kieran/web/php/PHP-test-new/lib/Cake/Model/Model.php(1623): Model->getDataSource()
+#2 /home/kieran/web/php/PHP-test-new/app/Controller/HomeController.php(51): Model->save()
+#3 [internal function]: HomeController->saveData()
+#4 /home/kieran/web/php/PHP-test-new/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(HomeController), Array)
+#5 /home/kieran/web/php/PHP-test-new/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#6 /home/kieran/web/php/PHP-test-new/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#7 /home/kieran/web/php/PHP-test-new/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-09-11 21:16:28 Error: [MissingTableException] Table homes for model Home was not found in datasource default.
+#0 /home/kieran/web/php/PHP-test-new/lib/Cake/Model/Model.php(3424): Model->setSource('homes')
+#1 /home/kieran/web/php/PHP-test-new/lib/Cake/Model/Model.php(1623): Model->getDataSource()
+#2 /home/kieran/web/php/PHP-test-new/app/Controller/HomeController.php(51): Model->save()
+#3 [internal function]: HomeController->saveData()
+#4 /home/kieran/web/php/PHP-test-new/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(HomeController), Array)
+#5 /home/kieran/web/php/PHP-test-new/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#6 /home/kieran/web/php/PHP-test-new/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#7 /home/kieran/web/php/PHP-test-new/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-09-11 21:18:52 Error: [PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'proferotest.homes' doesn't exist
+#0 /home/kieran/web/php/PHP-test-new/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /home/kieran/web/php/PHP-test-new/lib/Cake/Model/Datasource/Database/Mysql.php(288): DboSource->_execute('SHOW FULL COLUM...')
+#2 /home/kieran/web/php/PHP-test-new/lib/Cake/Model/Model.php(1279): Mysql->describe(Object(Home))
+#3 /home/kieran/web/php/PHP-test-new/lib/Cake/Model/Model.php(1364): Model->schema()
+#4 /home/kieran/web/php/PHP-test-new/lib/Cake/Model/Model.php(1626): Model->hasField('modified')
+#5 /home/kieran/web/php/PHP-test-new/app/Controller/HomeController.php(51): Model->save()
+#6 [internal function]: HomeController->saveData()
+#7 /home/kieran/web/php/PHP-test-new/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(HomeController), Array)
+#8 /home/kieran/web/php/PHP-test-new/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#9 /home/kieran/web/php/PHP-test-new/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#10 /home/kieran/web/php/PHP-test-new/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-09-11 21:19:18 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'name' cannot be null
+#0 /home/kieran/web/php/PHP-test-new/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /home/kieran/web/php/PHP-test-new/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('INSERT INTO `pr...', Array)
+#2 /home/kieran/web/php/PHP-test-new/lib/Cake/Model/Datasource/DboSource.php(1009): DboSource->execute('INSERT INTO `pr...')
+#3 /home/kieran/web/php/PHP-test-new/lib/Cake/Model/Model.php(1705): DboSource->create(Object(Home), Array, Array)
+#4 /home/kieran/web/php/PHP-test-new/app/Controller/HomeController.php(51): Model->save()
+#5 [internal function]: HomeController->saveData()
+#6 /home/kieran/web/php/PHP-test-new/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(HomeController), Array)
+#7 /home/kieran/web/php/PHP-test-new/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#8 /home/kieran/web/php/PHP-test-new/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#9 /home/kieran/web/php/PHP-test-new/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-09-11 21:40:55 Error: Fatal Error (4): syntax error, unexpected T_STRING in [/home/kieran/web/php/PHP-test-new/app/View/Home/index.ctp, line 28]
+2012-09-11 21:40:55 Error: [InternalErrorException] Internal Server Error
+#0 /home/kieran/web/php/PHP-test-new/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/kieran/we...', 28)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/kieran/we...', 28, Array)
+#2 /home/kieran/web/php/PHP-test-new/lib/Cake/Core/App.php(924): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/kieran/we...', 28, Array)
+#3 /home/kieran/web/php/PHP-test-new/lib/Cake/Core/App.php(897): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-09-11 21:41:46 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/kieran/web/php/PHP-test-new/app/View/Home/index.ctp, line 29]
+Trace:
+include - APP/View/Home/index.ctp, line 29
+View::_evaluate() - CORE/Cake/View/View.php, line 907
+View::_render() - CORE/Cake/View/View.php, line 871
+View::render() - CORE/Cake/View/View.php, line 463
+Controller::render() - CORE/Cake/Controller/Controller.php, line 959
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 96
+
+2012-09-11 22:27:57 Error: Fatal Error (1): Call to undefined method FacebookComponent::getLikes() in [/home/kieran/web/php/PHP-test-new/app/Controller/HomeController.php, line 13]
+2012-09-11 22:27:57 Error: [InternalErrorException] Internal Server Error
+#0 /home/kieran/web/php/PHP-test-new/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/home/kieran/we...', 13)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/home/kieran/we...', 13, Array)
+#2 /home/kieran/web/php/PHP-test-new/lib/Cake/Core/App.php(924): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/home/kieran/we...', 13, Array)
+#3 /home/kieran/web/php/PHP-test-new/lib/Cake/Core/App.php(897): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}

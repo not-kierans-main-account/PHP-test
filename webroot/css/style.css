@@ -160,3 +160,7 @@ label.error {
 .clear {
     clear: both;
 }
+
+.error-msg {
+    color: red;
+}
